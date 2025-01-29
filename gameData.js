@@ -1,4 +1,4 @@
-let playername;
+let playerName;
 
 let introtext = "Welcome to the ballista mansion. Today, the 8 of you are invited here to join me for a dinner meal. I will be seeing who shall inherit all of my assets and money. I will be seeing if you have what it takes to be my next successor.";
 let pathText1 = "";
