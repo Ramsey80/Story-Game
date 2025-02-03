@@ -1,6 +1,7 @@
 let playerName = "";
 
 const introText = "Welcome to the ballista mansion. Today, the 8 of you are invited here to join me for a dinner meal. I will be seeing who shall inherit all of my assets and money. I will be seeing if you have what it takes to be my next successor.";
+const pathText0 = "You open the front door and walk into the house.";
 const pathText1 = "You have decided to use the bathroom, you are now dead.";
 const pathText2 = "You make it to the kitchen, and have a conversation with everyone in the room.";
 const pathText3 = "You solve the mystery instantly and know who the killer is.";

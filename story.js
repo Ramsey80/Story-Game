@@ -4,7 +4,7 @@ playerName = prompt("Please enter your name", "John Doe");
 alert("Hello, " + playerName + " Thank you for joining us today!");
 alert(introText);
 
-let firstChoice = prompt(pathText1 + "Type 'left' for the bathroom or 'right' for the kitchen.").toLowerCase();
+let firstChoice = prompt(pathText0 + "Type 'left' for the bathroom or 'right' for the kitchen.").toLowerCase();
 
 if (firstChoice === "left") {
   // If they chose the bathroom
