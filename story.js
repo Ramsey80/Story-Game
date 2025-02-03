@@ -1,10 +1,10 @@
 
 playerName = prompt("Please enter your name", "John Doe");
 
-alert("Hello, " + playerName + " Thank you for joining us today!");
+alert("Hello, " + playerName + ". Thank you for joining us today!");
 alert(introText);
 
-let firstChoice = prompt(pathText0 + "Type 'left' for the bathroom or 'right' for the kitchen.").toLowerCase();
+let firstChoice = prompt(pathText0 + " Type 'left' for the bathroom or 'right' for the kitchen.").toLowerCase();
 
 if (firstChoice === "left") {
   // If they chose the bathroom
@@ -16,7 +16,7 @@ if (firstChoice === "left") {
   alert("You take the right path into the kitchen.");
   
   // Second decision
-  let secondChoice = prompt(pathText2 + "\n\nType 'open' to open the refrigerator or 'chat' to talk with everyone in the kitchen.").toLowerCase();
+  let secondChoice = prompt(pathText5 + "Type 'open' to open the refrigerator or 'chat' to talk with everyone in the kitchen.").toLowerCase();
   
   if (secondChoice === "open") {
     alert(pathText4);
