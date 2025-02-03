@@ -1,5 +1,6 @@
 
-let playerName = prompt("Please enter your name", "John Doe");
+playerName = prompt("Please enter your name", "John Doe");
+
 alert("Hello, " + playerName + "Thank you for joining us today!");
 alert(introText);
 
