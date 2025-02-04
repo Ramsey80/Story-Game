@@ -4,7 +4,7 @@ playerName = prompt("Please enter your name", "John Doe");
 alert("Hello, " + playerName + ". Thank you for joining us today!");
 alert(introText);
 
-let firstChoice = prompt(pathText0 + " Type 'left' for the bathroom or 'right' for the kitchen.").toLowerCase();
+let firstChoice = prompt(pathText0 + " Type 'left' for the bathroom or 'right' for the kitchen or 'upstairs' for the upper hallway.").toLowerCase();
 
 if (firstChoice === "left") {
   // If they chose the bathroom
@@ -30,8 +30,26 @@ if (firstChoice === "left") {
     alert(endText3);
   }
 
-} else {
+} else if (thirdChoice === "upstairs"){
+  // Third decision
+  let thirdChoice = prompt(pathText12 + " Type 'left' to go left or 'back' to head back downstairs.").toLowerCase();
+  
+  if(thirdChoice === "left"){
+    alert(pathText9);
+    let thirdChoice2 = prompt(pathText9 + " Type 'fight' to fight or 'flight' to run").toLowerCase();
+      if(thirdChoice2 = "fight"){
+        alert(pathText9);
+        alert(pathText11);
+        alert(endText4);
+      } else if (thirdChoice2 = "flight"){
+        alert(pathText10)
+        alert(endText2);
+      }
+  } else if(thirdChoice === "back"){
+    alert(pathText7);
+  }
+}else {
   alert("Invalid choice. Let's assume you went straight ahead.");
-  alert("You take the straight path up to the bedroom all alone");
+  alert("You take the straight path up to the bedroom all alone ");
   alert(endText3);
 }
