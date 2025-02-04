@@ -37,12 +37,12 @@ if (firstChoice === "left") {
   
   if(thirdChoice === "left"){
     alert(pathText9);
-    let thirdChoice2 = prompt(pathText9 + " Type 'fight' to fight or 'flight' to run").toLowerCase();
+    let thirdChoice2 = prompt(pathText9 + " Type 'fight' to fight or 'run' to run").toLowerCase();
       if(thirdChoice2 = "fight"){
         alert(pathText9);
         alert(pathText11);
         alert(endText4);
-      } else if (thirdChoice2 = "flight"){
+      } else if (thirdChoice2 = "run"){
         alert(pathText10)
         alert(endText2);
       }
