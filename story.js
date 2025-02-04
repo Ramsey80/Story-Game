@@ -16,7 +16,7 @@ if (firstChoice === "left") {
   alert("You take the right path into the kitchen.");
   
   // Second decision
-  let secondChoice = prompt(pathText5 + "Type 'open' to open the refrigerator or 'chat' to talk with everyone in the kitchen.").toLowerCase();
+  let secondChoice = prompt(pathText5 + " Type 'open' to open the refrigerator or 'chat' to talk with everyone in the kitchen.").toLowerCase();
   
   if (secondChoice === "open") {
     alert(pathText4);
