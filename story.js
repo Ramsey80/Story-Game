@@ -47,6 +47,10 @@ if (firstChoice === "left") {
       }
   } else if(thirdChoice === "back"){
     alert(pathText7);
+  } else{
+    alert("Invalid choice. Let's assume you went straight ahead.");
+    alert("You take the straight path up to the bedroom all alone ");
+    alert(endText3);
   }
 }else {
   alert("Invalid choice. Let's assume you went straight ahead.");
