@@ -32,6 +32,7 @@ if (firstChoice === "left") {
 
 } else if (thirdChoice === "upstairs"){
   // Third decision
+  alert(pathText6)
   let thirdChoice = prompt(pathText12 + " Type 'left' to go left or 'back' to head back downstairs.").toLowerCase();
   
   if(thirdChoice === "left"){
